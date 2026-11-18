@@ -44,3 +44,26 @@ Pusty Enter kończy program.
 Jeśli dla daty zakupu nie ma notowania NBP (np. 12.07.2026 wypada w niedzielę),
 program szuka ostatniego wcześniejszego kursu, maksymalnie 7 dni wstecz.
 Data księgowania pozostaje datą zakupu podaną w zadaniu.
+
+## Wnioski po ocenie projektu
+
+W informacji zwrotnej wskazano potrzebę dopracowania obsługi użytkownika:
+brak komendy ponownie wyświetlającej wszystkie rekordy, komunikatu o braku
+wyników oraz wyboru kierunku sortowania. Zwrócono również uwagę na brak testów
+jednostkowych i potrzebę lepszego opisania kodu komentarzami.
+
+Interfejs konsolowy był jedną z form dopuszczonych w zadaniu. Wybór sortowania
+wyłącznie rosnącego wynikał z interpretacji wymagań, które nie określały kierunku.
+Ocena projektu pokazała jednak, że wygoda obsługi wymaga uwagi także w niewielkiej
+aplikacji konsolowej.
+
+Planowane usprawnienia:
+
+- Czytelne menu z możliwością powrotu do pełnej listy komputerów.
+- Jednoznaczny komunikat o braku wyników wyszukiwania.
+- Wybór sortowania rosnącego lub malejącego.
+- Testy przeliczania kwot, zaokrąglania i obsługi dat.
+- Komentarze wyjaśniające istotne założenia i decyzje.
+
+Powyższe punkty stanowią plan rozwoju; nie są jeszcze zaimplementowane
+w aktualnej wersji aplikacji.
